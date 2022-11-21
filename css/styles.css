@@ -1,0 +1,71 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --hover-color: #2196f3;
+  --white-color: #fff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--secondary-text-color);
+}
+.header {
+  height: 80;
+}
+.first-part-logo {
+  color: var(--hover-color);
+}
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  font-family: Raleway;
+  text-decoration: none;
+}
+.logo-header
+{
+  color: var(--secondary-text-color);
+
+
+}
+.header-adress {
+  color: #757575;
+}
+.link {
+  text-decoration: none;
+}
+.link-hover:hover {
+  color: var(--hover-color);
+}
+.list {
+  list-style: none;
+}
+.navigation a {
+  font-weight: 500;
+  color: var(--secondary-text-color);
+}
+.button {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  border: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.button:hover {
+  color: var(--white-color);
+  background-color: var(--hover-color);
+}
+.footer {
+background-color: #2F303A;
+}
+.logo-footer {
+  color: var(--white-color);
+}
+.card-text {
+  color: var(--primary-text-color);
+}
+.card-header {
+  font-weight: 700;
+  line-height: 36px;
+}
