@@ -38,6 +38,8 @@ body {
   line-height: calc(24/18);
   letter-spacing: 0.03em;
   color: var(--logo-color);
+  text-transform: capitalize;
+  text-decoration: none;
 }
 .logo-dark {
   color: var(--primary-text-color);
@@ -74,7 +76,7 @@ line-height: calc(24/16);
 }
 .hero-title {
   color: var(--white-color);
-font-weight: 500;
+font-weight: 700;
 font-size: 56px;
 line-height: calc(60/56);
 letter-spacing: 0.02em;
@@ -104,7 +106,7 @@ letter-spacing: 0.04em;
   color: var(--second-img-color);
 }
 .features-description {
-  font-weight: 500;
+  font-weight: 700;
 font-size: 20px;
 line-height: calc(24/20);
 letter-spacing: 0.02em;
@@ -120,7 +122,7 @@ letter-spacing: 0.02em;
   color: var(--second-img-color);
 }
 .todo-title {
-  font-weight: 500;
+  font-weight: 700;
 font-size: 36px;
 line-height: calc(40/36);
 letter-spacing: 0.02em;
@@ -138,7 +140,7 @@ color: var(--primary-text-color);
   background-color: var(--second-img-color);
 }
 .team-title {
-font-weight: 500;
+font-weight: 700;
 font-size: 36px;
 line-height: calc(40/36);
 letter-spacing: 0.02em;
@@ -152,7 +154,7 @@ background-color: var(--white-color);
 .team-img {
 }
 .team-name {
-font-weight: 500;
+font-weight: 700;
 font-size: 20px;
 line-height: calc(24/20);
 letter-spacing: 0.02em;
@@ -191,7 +193,11 @@ cursor: pointer;
 }
 .cards-item {
 }
+.cards-link {
+  text-decoration: none;
+}
 .cards-img {
+  text-decoration:none;
 }
 .cards-header {
 font-weight: 700;
@@ -199,15 +205,18 @@ font-size: 20px;
 line-height: calc(24/20);
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+text-decoration: none;
 }
 .cards-text {
   color: var(--link-color);
 font-size: 16px;
 line-height: calc(24/16);
 letter-spacing: 0.02em;
+text-decoration: none;
 }
 .footer {
-  background-color: var(--primary-text-color)
+  background-color: var(--primary-text-color);
+  text-transform: capitalize;
 }
 .footer-logo {
   color: var(--footer-text-color);
